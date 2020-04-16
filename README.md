@@ -1,5 +1,5 @@
 # Git学习
 
--feature-A
+- feature-A
 - fix-B
-
+- feature-c
