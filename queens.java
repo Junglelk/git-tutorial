@@ -53,7 +53,7 @@ class Queen {
 						System.out.println();
 					}
 				}
-				col[j] = true; // 修改安全标志，回溯
+				col[j] = true; // 修改安全标志，回溯，修改后当前数组的状况改变，循环判断条件被改变，相当于返回了之前的状态，即回溯
 				diagonal[i - j + 7] = true;
 				undiagonal[i + j] = true;
 			}
